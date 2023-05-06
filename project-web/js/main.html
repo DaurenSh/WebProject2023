@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+            <h1 class="heading">My Account</h1>
+
+            <div id="menu" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="plan.html">PLAN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="main.html">MY ACCOUNT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--main part-->
+    <section class="content">
+
+        <div class="container">
+
+            <h1>Select a task</h1>
+    
+            <div class="task__container">
+                <div class="task__name" id="break" style="background-color: #5C315C;">Break</div>
+                <div class="task__name" id="korean" style="background-color: #CE4DC0">Korean</div>
+                <div class="task__name" id="english" style="background-color: #DC7DD1">English</div>
+                <div class="task__name" id="speakingclub" style="background-color: #D09DCA">Speaking club</div>
+                <div class="task__name" id="movietime" style="background-color: #FFD9FB">Movie time</div>
+                <div class="task__name" id="exam" style="background-color: #FF81E0">Exam</div>
+                <div class="task__name" id="deselect">Deselect All</div>
+    
+            </div>
+    
+            <h3>Add selected task to the schedule</h3>
+    
+            <div class="schedule__container">
+                <div class="days__container">
+                    <span class="corner"></span>
+                    <div class="day">Sunday</div>
+                    <div class="day">Monday</div>
+                    <div class="day">Tuesday</div>
+                    <div class="day">Wednesday</div>
+                    <div class="day">Thursday</div>
+                    <div class="day">Friday</div>
+                    <div class="day">Saturday</div>
+                </div>
+                <div class="part__day">
+                    <span class="time">8am <br> - <br> 12pm</span>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                </div>
+                <div class="part__day">
+                    <span class="time">12pm <br> - <br> 2pm</span>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                </div>
+                <div class="part__day">
+                    <span class="time">2pm <br> - <br> 6pm</span>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                </div>
+                <div class="part__day">
+                    <span class="time">6pm <br> - <br> 9pm</span>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                </div>
+                <div class="part__day">
+                    <span class="time">9pm <br> - <br> 11pm</span>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                    <div class="task"></div>
+                </div>
+            </div>
+    
+            <button class="deleteBtn">Reset Schedule</button>
+    
+            <div class="pop-up__container">
+                <div class="pop-up">
+                    <h4>Are you sure you want to delete all the tasks from your schedule?</h4>
+                    <div class="btn__container">
+                        <div class="btn__answer" id="btn__yes">YES</div>
+                        <div class="btn__answer" id="btn__no">NO</div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+        
+
+         <!--footer zhaq-->
+         <div class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Why you need to choose us?</h3>
+                    <p>Choosing our language course will provide you with a comprehensive and immersive learning experience that will enable you to master the language quickly and effectively. Our experienced instructors and customized curriculum will help you achieve your language learning goals with ease.</p>
+
+                </div>
+
+                <div class="box">
+                    <h3>Quick links</h3>
+                    <a href="home.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="service.html">service</a>
+                    <a href="plan.html">plan</a>
+                    <a href="contact.html">contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>newsletter</h3>
+                    <p>subcribe for latest updates</p>
+                    <form action="">
+                        <input type="email" placeholder="your email">
+                        <input type="submit" class="btn" value="subscribe">
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
